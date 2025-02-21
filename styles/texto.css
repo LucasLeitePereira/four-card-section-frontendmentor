@@ -1,0 +1,38 @@
+.texto {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 1.5em;  
+    line-height: 150%;  
+}
+
+.titulo-normal {
+    font-weight: 200;
+    color: var(--Grey400);
+}
+.titulo-bold {
+    font-weight: 600;
+    color: var(--Grey500);
+    margin-bottom: 1rem;
+}
+
+.texto p {
+    font-weight: 400;
+    color: var(--Grey400);
+}
+
+.titulo-caixa {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--Grey500);
+}
+
+.texto-caixa {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--Grey500);
+}
