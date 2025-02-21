@@ -35,3 +35,33 @@
 .azul {
     border-top: 4px solid var(--Blue);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .meio {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .vermelho, .amarelo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    
+    .caixas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .caixa {
+        height: 30%;
+    }
+    .meio {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

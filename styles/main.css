@@ -16,3 +16,10 @@ section {
     flex-direction: column;
     gap: 3rem;
 }
+
+@media (min-width: 1025px) {
+    section {
+        height: 100vh;
+        padding: 4% 10% 3% 10%;
+    }
+}
